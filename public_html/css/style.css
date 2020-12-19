@@ -18,10 +18,12 @@ body{
 
 .header{
     display: flex;
-    background-color: #5a5a5a;
+    background-color: white;
     height: 50px;
     position: fixed;
     width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .header > div{
@@ -31,7 +33,7 @@ body{
 .header-menu{
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
 }
 
 .header-menu > div{
@@ -65,7 +67,7 @@ body{
 }
 
 #hamburger{
-    background-image: url("../resources/hamxx.jpg");
+    background-image: url("../resources/hamburger menu.png");
     background-size: contain;;
     background-repeat: no-repeat;
 }
@@ -92,7 +94,7 @@ body{
 .modalKontent{
   position: relative;
   background-color: #fefefe;
-  width: 50%;
+  width: 220px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animateLeft;
   -webkit-animation-duration: 0.5s;
