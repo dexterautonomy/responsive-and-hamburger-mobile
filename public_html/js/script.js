@@ -12,9 +12,9 @@ $(document).ready(function(){
     });
     
     $(window).click(function(event){
-        
         if($(event.target).is($('#myModal'))){
             $('#myModal').css("display", "none");
+            drawerIsDisplayed = false;
         }
     });
     
